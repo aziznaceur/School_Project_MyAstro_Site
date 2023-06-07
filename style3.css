@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  /* Style the header with a background color, padding, and center the text */
+  header {
+    background-color: #7a748c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar to remove bullets, display horizontally, and remove text decoration */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 0.5em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style the main content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+  
+  /* Style the gallery */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+  }
+  
+  .gallery a {
+    display: block;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the footer with a background color, padding, and center the text */
+  footer {
+    background-color: #7a748c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
